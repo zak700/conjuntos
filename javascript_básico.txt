@@ -1,0 +1,10 @@
+JavaScript (js) é uma linguagem de progração usada principalmente para adicionar interatividade a páginas web, mas também pode ser usada em multiplas outras coisas como, por exemplo servidores, sendo utilizadas em diversos sites e jogos durante os anos.
+
+No JavaScript as váriaveis são espaços de memória no computador que o programa reserva para ser executado eventualmente.
+Existem, no total, Três tipos de váriaveis que podemos utilizar.
+
+var;
+let; e
+cont.
+
+é fundamental saber a diferença entre elas.
