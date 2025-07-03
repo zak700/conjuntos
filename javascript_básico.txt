@@ -7,4 +7,8 @@ var;
 let; e
 cont.
 
-é fundamental saber a diferença entre elas.
+é fundamental saber a diferença entre elas para o uso correto de tais.
+
+VAR
+
+a váriavel do tipo 'VAR' 
