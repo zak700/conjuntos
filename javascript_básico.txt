@@ -5,7 +5,7 @@ Existem, no total, Três tipos de váriaveis que podemos utilizar.
 
 var;
 let; e
-cont.
+const.
 
 é fundamental saber a diferença entre elas para o uso correto de tais.
 
