@@ -1,5 +1,11 @@
 JavaScript (js) é uma linguagem de progração usada principalmente para adicionar interatividade a páginas web, mas também pode ser usada em multiplas outras coisas como, por exemplo servidores, sendo utilizadas em diversos sites e jogos durante os anos.
 
+porém antes de começar a aprender sobre JavaScript é necessário entender o que é o console.
+
+O console refere-se a uma interface de linha de comando, onde o desenvolvedor pode interagir com o código, executar comandos e visualizar mensagens de depuração. E ao escrever códigos é necessário o testar de maneira prática e utilizamos o console para fazer justamente isso, testar nosso código atual.
+
+No JavaScript é existem multiplas funções, dentre elas tem o console.log() 
+
 No JavaScript as váriaveis são espaços de memória no computador que o programa reserva para ser executado eventualmente.
 Existem, no total, Três tipos de váriaveis que podemos utilizar.
 
@@ -11,4 +17,7 @@ const.
 
 VAR
 
-a váriavel do tipo 'VAR' 
+O JavaScript possui várias características, dentre elas tem uma chamada 'hoisting' isso significa que quando temos uma váriavel do tipo var, ela é levantada para o topo do seu escopo, por exemplo:
+
+console.log(cor)
+var cor = "roxo"
