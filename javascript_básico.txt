@@ -12,6 +12,8 @@ console.log("amarelo") // saida: amarelo
 
 o terminal(saida) irá retornar a palavra amarelo, significando que o código funcionou corretamente
 
+VARIAVEIS
+
 No JavaScript as váriaveis são espaços de memória no computador que o programa reserva para ser executado eventualmente.
 Existem, no total, Três tipos de váriaveis que podemos utilizar.
 
