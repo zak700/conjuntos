@@ -25,7 +25,8 @@ const.
 
 VAR
 
-O JavaScript possui várias características, dentre elas tem uma chamada 'hoisting' isso significa que quando temos uma váriavel do tipo var, ela é levantada para o topo do seu escopo, por exemplo:
+O JavaScript possui várias características, dentre elas tem uma chamada 'hoisting' isso significa que quando temos uma váriavel do tipo var, ela é levantada para o topo do seu escopo (refere-se ao contexto em que as variáveis e funções são acessíveis dentro do código), por exemplo:
 
 var cor = "roxo"
 console.log(cor) // saida: roxo
+
