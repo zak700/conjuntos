@@ -2,7 +2,7 @@ JavaScript (js) é uma linguagem de progração usada principalmente para adicio
 
 porém antes de começar a aprender sobre JavaScript é necessário entender o que é o console.
 
-O console refere-se a uma interface de linha de comando, onde o desenvolvedor pode interagir com o código, executar comandos e visualizar mensagens de depuração. E ao escrever códigos é necessário o testar de maneira prática e utilizamos o console para fazer justamente isso, testar nosso código atual.
+O console refere-se a uma interface de linha de comando, onde o desenvolvedor pode interagir com o código, executar comandos e visualizar mensagens de depuração. E ao escrever códigos é necessário o testar de maneira prática e utilizar o console para fazer justamente isso, testar o código atual.
 
 No JavaScript é existem multiplas funções, dentre elas tem o console.log() 
 
