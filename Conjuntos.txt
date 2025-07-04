@@ -16,3 +16,6 @@ T = {1, 2, 3, 4}  L = {1, 2, 3, 5} T n L = {1, 2, 3}
 A Diferença sendo representada pelo simbolo "-", é responsável por destacar somente os elementos que não tem em comum nos conjuntos que estão nessas operações, por exemplo:
 T = {1, 2, 3, 4}  L = {1, 2, 4, 5, 6}  T - L = {3} 
 Deixando claro que a ordem dos fatores altera o final, os elementos não em comum que aparecem no conjunto final devem ser apenas os do primeiro conjunto da operação. então se fosse L - T o resultado seria {3, 5, 6}
+
+Mas afinal, o que são os conjuntos? E onde isso está presente em nossas vidas? Acalme-se, por incrível que pareça eles são muito mais importantes do que você pensa
+Os conjuntos são a base da matemática, absolutamente TUDO faz parte de um conjuntos, como por exemplo, você está num conjunto de pessoas que leram isso, que é um conjunto de palavras que são conjunto de letras que estão explicando conjuntos dando exemplos de conjuntos.
