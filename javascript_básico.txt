@@ -5,6 +5,8 @@ porém antes de começar a aprender sobre JavaScript é necessário entender o q
 O console refere-se a uma interface de linha de comando, onde o desenvolvedor pode interagir com o código, executar comandos e visualizar mensagens de depuração. E ao escrever códigos é necessário o testar de maneira prática e utilizar o console para fazer justamente isso, testar o código atual.
 
 No JavaScript é existem multiplas funções, dentre elas tem o console.log() 
+O principal objetivo desta função é exibir informações durante o desenvolvimento, ajudando os desenvolvedores a inspecionar variáveis, rastrear caminhos de execução e identificar problemas em seu código.
+para utilizar coloque a informação diretamente dentro dos parenteses
 
 No JavaScript as váriaveis são espaços de memória no computador que o programa reserva para ser executado eventualmente.
 Existem, no total, Três tipos de váriaveis que podemos utilizar.
@@ -21,3 +23,4 @@ O JavaScript possui várias características, dentre elas tem uma chamada 'hoist
 
 console.log(cor)
 var cor = "roxo"
+
