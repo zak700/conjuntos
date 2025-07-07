@@ -1,32 +1,69 @@
-JavaScript (js) é uma linguagem de progração usada principalmente para adicionar interatividade a páginas web, mas também pode ser usada em multiplas outras coisas como, por exemplo servidores, sendo utilizadas em diversos sites e jogos durante os anos.
+JavaScript (JS) é uma linguagem de programação usada principalmente para adicionar interatividade a páginas web, mas também pode ser empregada em diversas outras aplicações, como, por exemplo, em servidores, sendo utilizada em inúmeros sites e jogos ao longo dos anos.
 
-porém antes de começar a aprender sobre JavaScript é necessário entender o que é o console.
+Porém, antes de começar a aprender JavaScript, é necessário entender o que é o console.
 
-O console refere-se a uma interface de linha de comando, onde o desenvolvedor pode interagir com o código, executar comandos e visualizar mensagens de depuração. E ao escrever códigos é necessário o testar de maneira prática e utilizar o console para fazer justamente isso, testar o código atual.
+O console refere-se a uma interface de linha de comando na qual o desenvolvedor pode interagir com o código, executar comandos e visualizar mensagens de depuração. Ao escrever códigos, é necessário testá-los de forma prática, utilizando o console justamente para isso: verificar se o código está funcionando corretamente.
 
-No JavaScript existem multiplas funções, dentre elas tem o console.log() 
-O principal objetivo desta função é exibir informações durante o desenvolvimento, ajudando os desenvolvedores a inspecionar variáveis, rastrear caminhos de execução e identificar problemas em seu código.
-para utilizar coloque a informação diretamente dentro dos parenteses, por exemplo:
+No JavaScript, existem várias funções, e entre elas está o console.log().
+O principal objetivo dessa função é exibir informações durante o desenvolvimento, ajudando os desenvolvedores a inspecionar variáveis, rastrear caminhos de execução e identificar problemas no código.
+Para utilizá-la, basta colocar a informação dentro dos parênteses. Por exemplo:
 
-console.log("amarelo") // saida: amarelo
+console.log("amarelo") // saída: amarelo
+O terminal (saída) retornará a palavra "amarelo", indicando que o código funcionou corretamente.
 
-o terminal(saida) irá retornar a palavra amarelo, significando que o código funcionou corretamente
+Variáveis
+No JavaScript, as variáveis são espaços de memória reservados pelo programa para armazenar informações que serão usadas durante a execução.
+Existem, no total, três formas principais de declarar variáveis:
 
-VARIAVEIS
+var
 
-No JavaScript as váriaveis são espaços de memória no computador que o programa reserva para ser executado eventualmente.
-Existem, no total, Três tipos de váriaveis que podemos utilizar.
+let
 
-var;
-let; e
-const.
+const
 
-é fundamental saber a diferença entre elas para o uso correto de tais.
+É fundamental entender a diferença entre elas para utilizá-las corretamente.
 
-VAR
+var
+O JavaScript possui uma característica chamada hoisting. Isso significa que, quando declaramos uma variável com var, ela é "elevada" para o topo do seu escopo (ou seja, o contexto em que as variáveis e funções podem ser acessadas dentro do código). Por exemplo:
 
-O JavaScript possui várias características, dentre elas tem uma chamada 'hoisting' isso significa que quando temos uma váriavel do tipo var, ela é levantada para o topo do seu escopo (refere-se ao contexto em que as variáveis e funções são acessíveis dentro do código), por exemplo:
+console.log(cor); // indefinido, pois só a declaração sobe, não o valor
+var cor = "roxo";
+console.log(cor); // roxo
 
-var cor = "roxo"
-console.log(cor) // saida: roxo
+Com var, é possível redeclarar e reatribuir valores sem restrições, mas, por questões de boas práticas e previsibilidade, atualmente recomenda-se usar let ou const na maioria dos casos.
 
+let foi introduzido no ES6 (2015).
+
+Tem escopo de bloco, ou seja, só existe dentro do bloco {} onde foi declarada.
+
+Não faz hoisting da mesma forma: a declaração é “vista”, mas o valor não pode ser acessado antes. Isso gera um erro de ReferenceError.
+
+É preferível a var na maioria dos casos.
+
+let cor = "azul";
+console.log(cor); // azul
+
+if (true) {
+  let cor = "verde";
+  console.log(cor); // verde
+}
+
+console.log(cor); // azul (a de fora do bloco)
+
+const
+Também tem escopo de bloco, igual ao let.
+
+A diferença é que o valor não pode ser reatribuído.
+
+Mas não é imutável: objetos ou arrays podem ter seus conteúdos modificados.
+
+Exemplo:
+
+const cor = "amarelo";
+console.log(cor); // amarelo
+
+// cor = "vermelho"; // Erro! Não pode reatribuir
+
+const cores = ["vermelho", "azul"];
+cores.push("verde"); // Funciona!
+console.log(cores); // ["vermelho", "azul", "verde"]
