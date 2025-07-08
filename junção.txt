@@ -50,13 +50,6 @@ Ou:
 console.log(objeto.hasOwnProperty("cor"));
 Iterar sobre elementos:
 
-Nos conjuntos, podemos iterar sobre seus elementos.
-
-Nos objetos, podemos iterar sobre suas propriedades usando for...in:
-
-for (let chave in objeto) {
-  console.log(chave, objeto[chave]);
-}
 União de objetos (semelhante à união de conjuntos):
 
 Para unir dois objetos (mesclar propriedades), usamos Object.assign ou spread operator:
