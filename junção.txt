@@ -2,4 +2,9 @@ agora, a programação orientada a objetos (usando JavaScript) é basicamente um
 
 como se cria um objeto em JavaScript?
 
-para criar um objeto, declare uma variável
+para criar um objeto, declare uma variável com o valor {}
+
+const objeto = {}
+
+neste caso, a variável "objeto" é, em sua base, igual a declaração de um conjunto, a única diferença até então é o nome, que deixou de ser uma letra maiúscula e virou uma palavra.
+a diferença mais evidente, é a forma em que se declara os elementos, os elementos são declados com um nome simples, por exemplo "cores" ou "tabelas", dois pontos e o valor em si, os valores de um objeto podem ser qualquer tipo de data do JavaScript, um string, int, ou até mesmo outro objeto.
