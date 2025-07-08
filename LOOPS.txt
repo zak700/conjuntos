@@ -1,4 +1,4 @@
-Loops em JavaScript são tipo aqueles momentos que você quer repetir uma tarefa várias vezes, sem ter que escrever tudo de novo e de novo. Imagina que você tem uma playlist e quer ouvir a mesma música 10 vezes — ao invés de apertar “play” manualmente 10 vezes, você usa um loop pra fazer isso automático.
+Loops em JavaScript são tipo aqueles momentos que você quer repetir uma tarefa várias vezes, sem ter que escrever tudo de novo e de novo. Imagina que você tem uma playlist e quer ouvir a mesma música 10 vezes — ao invés de apertar “play” manualmente 10 vezes, você usa um loop pra fazer isso automáticamente.
 
 Os loops mais comuns em JavaScript:
 1. for
