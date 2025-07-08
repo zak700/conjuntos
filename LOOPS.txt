@@ -1,0 +1,37 @@
+Loops em JavaScript são tipo aqueles momentos que você quer repetir uma tarefa várias vezes, sem ter que escrever tudo de novo e de novo. Imagina que você tem uma playlist e quer ouvir a mesma música 10 vezes — ao invés de apertar “play” manualmente 10 vezes, você usa um loop pra fazer isso automático.
+
+Os loops mais comuns em JavaScript:
+1. for
+É o mais tradicional. Você diz: "Começa aqui, termina aqui, e vai pulando de um em um."
+
+for (let i = 0; i < 5; i++) {
+  console.log("Oi! Esse é o loop número " + i);
+}
+Explicando na boa:
+
+let i = 0 → começa a contar do zero
+
+i < 5 → enquanto i for menor que 5, continue o loop
+
+i++ → a cada rodada, soma 1 no i (pula pra próxima)
+
+Resultado? Ele vai imprimir "Oi! Esse é o loop número 0", depois 1, 2, 3, 4 — e para quando chega em 5.
+
+2. while
+Aqui você fala: “Enquanto essa condição for verdadeira, fica repetindo.”
+
+let i = 0;
+while (i < 5) {
+  console.log("Oi! Estou no while " + i);
+  i++;
+}
+Funciona parecido, mas você controla o contador fora do loop.
+
+3. do...while
+É igual o while, só que garante que o código rode pelo menos uma vez antes de verificar a condição.
+
+let i = 0;
+do {
+  console.log("Oi do...while " + i);
+  i++;
+} while (i < 5);
