@@ -1,18 +1,69 @@
-agora, a programação orientada a objetos (usando JavaScript) é basicamente uma junção entre conjuntos e JavaScript.
+Agora, a programação orientada a objetos (usando JavaScript) é basicamente uma junção entre conjuntos e JavaScript.
 
-como se cria um objeto em JavaScript?
+Como se cria um objeto em JavaScript?
 
-para criar um objeto, declare uma variável com o valor {}
+Para criar um objeto, declare uma variável com o valor {}:
 
-const objeto = {}
+const objeto = {};
+Neste caso, a variável objeto é, em sua base, igual à declaração de um conjunto, a única diferença até então é o nome, que deixou de ser uma letra maiúscula e virou uma palavra.
 
-neste caso, a variável "objeto" é, em sua base, igual a declaração de um conjunto, a única diferença até então é o nome, que deixou de ser uma letra maiúscula e virou uma palavra.
-a diferença mais evidente, é a forma em que se declara os elementos, os elementos são declados com um nome simples, por exemplo "cores" ou "tabelas", dois pontos, o valor em si e uma vírgula para separar os objetos. os valores de um objeto podem ser qualquer tipo de data do JavaScript, um string, int, ou até mesmo outro objeto. por exemplo:
+A diferença mais evidente está na forma como se declaram os elementos: os elementos são declarados com um nome simples, por exemplo, "cor" ou "tabelas", seguidos por dois pontos, o valor em si, e uma vírgula para separar os pares chave-valor.
+
+Os valores de um objeto podem ser de qualquer tipo de dado do JavaScript, como uma string, um número ou até mesmo outro objeto. Por exemplo:
 
 const objeto = {
   cor: "amarelo",
   outro_objeto: {
-      peixe: "pirarucu"
-    }
+    peixe: "pirarucu"
+  },
   numero_da_sorte: 3
+};
+Operações básicas com objetos e a relação com conjuntos
+Podemos relacionar as operações em objetos com operações em conjuntos, visto que objetos armazenam pares chave-valor, similar a como conjuntos armazenam elementos.
+
+Adicionar um elemento (par chave-valor):
+
+Em conjuntos, adicionar um elemento significa incluir um novo item.
+
+Em objetos JavaScript, adicionamos uma nova propriedade assim:
+
+objeto.idade = 25;  // Adiciona a chave 'idade' com o valor 25
+Ou:
+
+objeto["altura"] = 1.75;
+Remover um elemento:
+
+Nos conjuntos, removemos um elemento para que ele não faça mais parte do conjunto.
+
+Em objetos, usamos o operador delete para remover uma propriedade:
+
+delete objeto.cor;  // Remove a chave 'cor' e seu valor
+Verificar se um elemento está presente:
+
+Em conjuntos, verificamos se um elemento pertence ao conjunto.
+
+Em objetos, verificamos se uma propriedade existe:
+
+console.log("cor" in objeto);  // true ou false
+Ou:
+
+console.log(objeto.hasOwnProperty("cor"));
+Iterar sobre elementos:
+
+Nos conjuntos, podemos iterar sobre seus elementos.
+
+Nos objetos, podemos iterar sobre suas propriedades usando for...in:
+
+for (let chave in objeto) {
+  console.log(chave, objeto[chave]);
 }
+União de objetos (semelhante à união de conjuntos):
+
+Para unir dois objetos (mesclar propriedades), usamos Object.assign ou spread operator:
+
+const obj1 = {a: 1, b: 2};
+const obj2 = {b: 3, c: 4};
+
+const uniao = {...obj1, ...obj2};
+// uniao = {a: 1, b: 3, c: 4}
+Note que, no caso de conflito (mesma chave), o valor do último objeto sobrescreve o anterior.
