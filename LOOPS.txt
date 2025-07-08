@@ -7,7 +7,8 @@ Os loops mais comuns em JavaScript:
 for (let i = 0; i < 5; i++) {
   console.log("Oi! Esse é o loop número " + i);
 }
-Explicando na boa:
+
+explicação:
 
 let i = 0 → começa a contar do zero
 
