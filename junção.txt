@@ -1,1 +1,5 @@
+agora, a programação orientada a objetos (usando JavaScript) é basicamente uma junção entre conjuntos e JavaScript.
 
+como se cria um objeto em JavaScript?
+
+para criar um objeto, declare uma variável
