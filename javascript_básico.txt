@@ -67,3 +67,17 @@ console.log(cor); // amarelo
 const cores = ["vermelho", "azul"];
 cores.push("verde"); // Funciona!
 console.log(cores); // ["vermelho", "azul", "verde"]
+
+tipos de informação em variáveis:
+
+por enquanto só vimos váriaveis do tipo string, que são linhas, ou texto, todavia, vamos ver mais profundamente o que cada variável significa:
+
+String: Representa texto. Exemplo: "Olá, mundo!" ou 'JavaScript'.
+
+int: Representa números inteiros. Exemplo: 42, 3, -400...
+
+Boolean: Representa valores lógicos. Exemplo: true ou false, o que indica se algo é verdadeiro (true) ou não (false).
+
+Undefined: Uma variável declarada, mas sem valor atribuído. Exemplo: let x; // undefined.
+
+Null: Representa a ausência intencional de valor. Exemplo: let y = null;.
